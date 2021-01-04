@@ -20,4 +20,4 @@ The body of the return message contains the raw binary image content.
 
 **Content example**
 
-![cat pic](https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg)
+![Cat Image](https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=400&h=400.0&fit=crop)
