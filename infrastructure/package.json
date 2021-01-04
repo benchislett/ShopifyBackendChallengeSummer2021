@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "bin": {
+    "app": "bin/app.js"
+  },
+  "scripts": {
+    "bootstrap": "cdk bootstrap",
+    "bundle": "rm -f src.zip && mv node_modules/ tmp_modules && npm install --production && zip -FS -r -qq src.zip src node_modules && rm -rf node_modules/ && mv tmp_modules node_modules",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.81.0",
+    "@aws-cdk/aws-apigateway": "1.81.0",
+    "@aws-cdk/aws-dynamodb": "1.81.0",
+    "@aws-cdk/aws-iam": "1.81.0",
+    "@aws-cdk/aws-lambda": "1.81.0",
+    "@aws-cdk/aws-s3": "1.81.0",
+    "@aws-cdk/core": "1.81.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "aws-cdk": "1.81.0",
+    "jest": "^26.4.2",
+    "source-map-support": "^0.5.16",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
