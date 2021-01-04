@@ -16,6 +16,10 @@ Supported features include image upload, download, deletion, and search by tag o
 - [Image Search](docs/image-search.md) : `POST /image/search/`
 - [Tag Search](docs/tag-search.md) : `POST /image/search/tags/{tag}/`
 
+## Usage Example
+
+See the [client notebook](./Client.ipynb) for an overview of the client-side interaction with the API, and some examples.
+
 ## How it works
 
 ### Upload
