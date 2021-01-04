@@ -102,3 +102,21 @@ dist
 
 # TernJS port file
 .tern-port
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+src.zip
+
+# Jupyter Notebook secrets
+.ipynb_checkpoints/
+
+# AWS secrets
+rootkey.sh
+user.json
+
+# Misc debug files
+imagenet_class_index.json
