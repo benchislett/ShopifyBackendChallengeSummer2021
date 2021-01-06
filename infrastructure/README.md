@@ -23,6 +23,6 @@ That's it!
 
 To deploy to your own account, you'll first need an `S3` bucket to house the images, and a `DynamoDB` table to house the metadata.
 
-If you have never initialized CDK on the account, you will also need to use `npm run bootstrap`.
-
 Update the values in `bin/app.ts` for their names, then follow the deployment steps above.
+
+If you have never initialized CDK on the account, you will also need to use `npm run bootstrap`.
